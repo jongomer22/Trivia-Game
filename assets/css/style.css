@@ -1,3 +1,30 @@
-h1 {
-    color: blue;
+body {
+    background-image: url("baseballs.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+#main-container {
+    background-color: lightgray;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.facts {
+    display: none;
+}
+
+/* .questions {
+    width: 500px;
+    text-align: center;
+}
+
+.answers {
+    width: 500px;
+    text-align: center;
 }
